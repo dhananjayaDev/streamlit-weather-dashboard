@@ -99,7 +99,7 @@ try:
             st.markdown(f"""
             <div class="main-card">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                    <h4>{location['name']}</h4>
+                    <h4>📍 {location['name']}</h4>
                     <small>Last Updated: {datetime.now().strftime('%H:%M')}</small>
                 </div>
                 <div style="display: flex; align-items: center; margin: 20px 0;">
@@ -148,7 +148,7 @@ try:
             # Location Details under Weekly Forecast
             st.markdown(f"""
             <div class="dark-card" style="margin-top: 15px;">
-                <h4 style="text-align: center; margin-bottom: 10px;">Location Details</h4>
+                <h4 style="text-align: center; margin-bottom: 10px;">📍 Location Details</h4>
                 <div style="text-align: center;">
                     <strong style="font-size: 18px;">{location['name']}</strong><br>
                     <span>{location['region']}, {location['country']}</span><br>
@@ -201,11 +201,11 @@ try:
             """, unsafe_allow_html=True)
             
             # Map under Visibility/Pressure/Precipitation
-            # st.markdown(f"""
-            # <div class="dark-card" style="margin-top: 15px;">
-            #     <h4 style="text-align: center; margin-bottom: 15px;">🗺️ Map View</h4>
-            # </div>
-            # """, unsafe_allow_html=True)
+            st.markdown(f"""
+            <div class="dark-card" style="margin-top: 15px;">
+                <h4 style="text-align: center; margin-bottom: 15px;">🗺️ Map View</h4>
+            </div>
+            """, unsafe_allow_html=True)
             
             # Add the actual map
             st.map(pd.DataFrame({
@@ -261,7 +261,7 @@ try:
                 """, unsafe_allow_html=True)
                 
                 # Temperature Trend under Air Quality
-                st.markdown("### Temperature Trend")
+                st.markdown("### 📈 Temperature Trend")
                 
                 # Prepare data for the chart
                 chart_data = []

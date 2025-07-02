@@ -14,14 +14,8 @@ This project is a **Weather BI Dashboard** built using **Streamlit** and **Weath
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](path/to/your/screenshot1.png)  
+![Dashboard Screenshot](https://github.com/dhananjayaDev/streamlit-weather-dashboard/blob/master/Screenshot%202025-07-02%20140042.png)  
 *Dashboard Overview*
-
-![Temperature Trend Chart](path/to/your/screenshot2.png)  
-*Temperature Trend for the Next 7 Days*
-
-![Weather Metrics Chart](path/to/your/screenshot3.png)  
-*Weather Metrics (Cloud, UV, Dewpoint, etc.)*
 
 ## Requirements
 

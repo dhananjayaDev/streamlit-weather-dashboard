@@ -35,50 +35,46 @@ This project is a **Weather BI Dashboard** built using **Streamlit** and **Weath
 
 ```bash
 pip install -r requirements.txt
+```
 requirements.txt includes the following dependencies:
-txt
-Copy
-Edit
+```bash
 streamlit
 requests
 plotly
 pandas
+```
 How to Run the App
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
+
 git clone https://github.com/dhananjayaDev/streamlit-weather-dashboard.git
 cd streamlit-weather-dashboard
+```
 Create and activate a virtual environment:
 
 For Windows:
 
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 For macOS/Linux:
 
-bash
-Copy
-Edit
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 Install the required packages:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Run the Streamlit app:
 
-bash
-Copy
-Edit
+```bash
 streamlit run weather_dashboard.py
+```
 Open the browser and navigate to http://localhost:8501 to view the dashboard.
 
 License
